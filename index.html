@@ -1,0 +1,86 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planilla de Semestres – Relaciones Laborales</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Plan de Estudios por Semestres</h1>
+  <div class="planilla">
+  
+    <!-- 1er Semestre -->
+    <div class="semestre">
+      <h2>1er Semestre</h2>
+      <div class="asignatura disponible" data-codigo="DS"  data-prerequisitos="">Derechos Sociales</div>
+      <div class="asignatura disponible" data-codigo="HD"  data-prerequisitos="">Historia del Derecho</div>
+      <div class="asignatura disponible" data-codigo="PDC" data-prerequisitos="">Principio de Derecho Constitucional</div>
+      <div class="asignatura disponible" data-codigo="TGDD" data-prerequisitos="">Teoría General del Derecho</div>
+    </div>
+    
+    <!-- 2do Semestre -->
+    <div class="semestre">
+      <h2>2º Semestre</h2>
+      <div class="asignatura disponible" data-codigo="HPPS" data-prerequisitos="">Historia del Pensamiento Político y Social</div>
+      <div class="asignatura disponible" data-codigo="IINV" data-prerequisitos="">Introducción a la Investigación</div>
+      <div class="asignatura disponible" data-codigo="FFL"  data-prerequisitos="">Fundamentos Filosóficos de las RR.LL.</div>
+    </div>
+    
+    <!-- 3er Semestre -->
+    <div class="semestre">
+      <h2>3er Semestre</h2>
+      <div class="asignatura disponible" data-codigo="ST"  data-prerequisitos="">Sociología del Trabajo</div>
+      <div class="asignatura disponible" data-codigo="DT"  data-prerequisitos="">Derecho al Trabajo</div>
+      <div class="asignatura disponible" data-codigo="OT"  data-prerequisitos="">Organización del Trabajo</div>
+      <div class="asignatura disponible" data-codigo="EST" data-prerequisitos="">Estadística</div>
+    </div>
+    
+    <!-- 4to Semestre -->
+    <div class="semestre">
+      <h2>4to Semestre</h2>
+      <div class="asignatura disponible" data-codigo="ET"   data-prerequisitos="">Economía del Trabajo</div>
+      <div class="asignatura bloqueada" data-codigo="DIT"  data-prerequisitos="DT">Derecho Individual del Trabajo</div>
+      <div class="asignatura disponible" data-codigo="TRRLL" data-prerequisitos="">Teoría de las RR.LL.</div>
+    </div>
+    
+    <!-- 5to Semestre -->
+    <div class="semestre">
+      <h2>5to Semestre</h2>
+      <div class="asignatura disponible" data-codigo="GE"    data-prerequisitos="">Gestión Empresarial</div>
+      <div class="asignatura disponible" data-codigo="PL"    data-prerequisitos="">Psicología Laboral</div>
+      <div class="asignatura bloqueada" data-codigo="DIRRL" data-prerequisitos="DIT">Derecho de la Integración y las RR.LL.</div>
+      <div class="asignatura disponible" data-codigo="NC"    data-prerequisitos="">Negociación Colectiva</div>
+      <div class="asignatura disponible" data-codigo="T1"    data-prerequisitos="">Técnica I</div>
+    </div>
+    
+    <!-- 6to Semestre -->
+    <div class="semestre">
+      <h2>6to Semestre</h2>
+      <div class="asignatura bloqueada"  data-codigo="DE"  data-prerequisitos="DIT">Derecho de la Empresa</div>
+      <div class="asignatura bloqueada"  data-codigo="DP"  data-prerequisitos="DIT">Derecho de las RR.LL. en Sector Público</div>
+      <div class="asignatura bloqueada"  data-codigo="TMI" data-prerequisitos="IINV">Teoría y Método de la Investigación</div>
+      <div class="asignatura bloqueada"  data-codigo="T2"  data-prerequisitos="T1">Técnica II</div>
+    </div>
+    
+    <!-- 7mo Semestre -->
+    <div class="semestre">
+      <h2>7mo Semestre</h2>
+      <div class="asignatura bloqueada"  data-codigo="DSS" data-prerequisitos="DIT">Derecho de la Seguridad Social</div>
+      <div class="asignatura disponible" data-codigo="SSP" data-prerequisitos="">Salud, Seguridad y Prevención</div>
+      <div class="asignatura disponible" data-codigo="ST2" data-prerequisitos="">Sociología del Trabajo</div>
+      <div class="asignatura disponible" data-codigo="EFP" data-prerequisitos="">Empleo y Formación Profesional</div>
+      <div class="asignatura bloqueada"  data-codigo="T3"  data-prerequisitos="T2">Técnica III</div>
+    </div>
+    
+    <!-- 8vo Semestre -->
+    <div class="semestre">
+      <h2>8vo Semestre</h2>
+      <div class="asignatura bloqueada" data-codigo="MET" data-prerequisitos="TMI">Metodología</div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
